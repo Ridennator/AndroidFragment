@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context=".fragmentos.fragment1">
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.fragment2">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Fragment1Text"
-        android:textSize="32sp"
+        android:text="@string/Fragment2Text"
+        android:textSize="20sp"
         android:layout_centerInParent="true"/>
-</ScrollView>
+</RelativeLayout>
